@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+    .chat__items {
+        animation-delay: 0.8s;
+        width: fit-content;
+    }
+}

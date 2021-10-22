@@ -1,0 +1,26 @@
+    .Chatbot {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .border-left,
+        .Chatbot {
+            display: none;
+        }
+    }
+    
+    .btn1 {
+        box-sizing: border-box
+    }
+    
+    .border-left {
+        border-right: 3px solid #05040c;
+        color: honeydew;
+        width: 10%;
+        background: rgb(37, 33, 33);
+    }
+    
+    .Massage {
+        border-bottom: 2px solid rgb(51, 46, 46);
+    }

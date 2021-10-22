@@ -1,0 +1,33 @@
+.nav {
+    max-width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0px;
+    flex-direction: column;
+    padding-top: 30px;
+    background: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        padding-left: 10px;
+        max-width: 50%;
+    }
+    .fas1 {
+        margin-right: 5% !important;
+    }
+}
+
+.fas1 {
+    color: aliceblue !important;
+    font-size: larger;
+    margin-left: 20px;
+}
+
+.nav img {
+    margin: 5px;
+    border-radius: 50px;
+    display: block;
+    max-width: 50%;
+    cursor: pointer;
+}
